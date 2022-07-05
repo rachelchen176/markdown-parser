@@ -2,17 +2,8 @@
 
 [link1](https://alink.com)
 
-![image](https://aimage.com)
-
 ```
-#code block
-block
+block1
 ```
-
-Horizontal rule:
-
----
-
-## Heading 2
 
 ![image](https://bimage.com)
