@@ -59,7 +59,7 @@ public class MarkdownParse {
             if(nextCodeBlock < nextOpenBracket && nextCodeBlock != -1) {
                 int endOfCodeBlock = markdown.indexOf("\n```");
                 currentIndex = endOfCodeBlock + 1;
-                continue;
+                //continue; while loop, in newFile.md, ```block``` content is in front of the link, the loop will keep runing non stop since the if statement will always be true
             }
             int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
             int openParen = markdown.indexOf("(", nextCloseBracket);
